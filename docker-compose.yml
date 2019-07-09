@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  crazywebapi:
+    ports:
+        - "5002:80"
+    image: crazywebapi
+    build:
+      context: .
+      dockerfile: CrazyWebAPI/Dockerfile

@@ -1,0 +1,23 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrazyWebAPI", "CrazyWebAPI\CrazyWebAPI.csproj", "{CA044668-AAF0-40C7-89D9-2BC6DC8296DD}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{EE0D0C00-0F60-4B46-9F99-F2A4A9FEEADE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA044668-AAF0-40C7-89D9-2BC6DC8296DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA044668-AAF0-40C7-89D9-2BC6DC8296DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA044668-AAF0-40C7-89D9-2BC6DC8296DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA044668-AAF0-40C7-89D9-2BC6DC8296DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE0D0C00-0F60-4B46-9F99-F2A4A9FEEADE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE0D0C00-0F60-4B46-9F99-F2A4A9FEEADE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE0D0C00-0F60-4B46-9F99-F2A4A9FEEADE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE0D0C00-0F60-4B46-9F99-F2A4A9FEEADE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

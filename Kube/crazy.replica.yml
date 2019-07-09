@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: crazy-api-replica
+  namespace: development
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      type: web-api
+  template:
+    metadata:
+      name: crazy-api-pod
+      namespace: development
+      labels:
+        type: web-api
+    spec:
+      containers:
+        - image: crazywebapi:latest
+          imagePullPolicy: IfNotPresent
+          name: crazy-api-container
+          ports:
+            - containerPort: 80
+              
+  
+      

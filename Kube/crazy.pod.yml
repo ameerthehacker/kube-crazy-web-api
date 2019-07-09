@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: crazy-api-pod
+  namespace: development
+  labels:
+    type: web-api
+spec:
+  containers:
+    - image: crazywebapi:latest
+      imagePullPolicy: IfNotPresent
+      name: crazy-api-container
+      ports:
+        - containerPort: 80
+      resources:
+        requests:
+          cpu: 1
+          memory: 230mMi
+        limit:
+          cpu: 2
+          
+  
+  
